@@ -1,11 +1,15 @@
 
-
-
 ## Pattern MySQL Connection
 
+## Installation
+
+```bash
+$ npm install pattern-mysql-connection --save
+```
+## Connection
 
 ```js
-var MySQL_Connection =  require('pattern-mysql-connection')('localhost', 'root', 'password', 'db_name');
+var Connection_MySQL =  require('pattern-mysql-connection')('localhost', 'root', 'password', 'db_name');
 
 ```
 ```js
@@ -20,12 +24,6 @@ var MySQL_Connection =  require('pattern-mysql-connection')('localhost', 'root',
          });
                
                
-```
-
-## Installation
-
-```bash
-$ npm install pattern-mysql-connection --save
 ```
 
   Install dependencies:
