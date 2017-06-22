@@ -1,0 +1,14 @@
+{
+  "name": "mysql-connection",
+  "description": "Node: MySQL Connection.",
+  "version": "0.0.1",
+  "author": "Ruan Carlos de Souza Ramos <ruan.carlos.sr@gmail.com>",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "devDependencies": {
+     "mysql": "^2.13.0"
+   },
+  "license": "MIT"
+}
